@@ -1,5 +1,7 @@
-# Download any Soundcloud Song!!
+# Download *any Soundcloud Song!!
 for the aspiring DJ, music lover, and the like
+
+**almost any: ~6% of songs have a a weird unsupported HLS stream format*
 
 ```bash
 pip install soundcloud-lib
@@ -17,7 +19,6 @@ pip install soundcloud-lib
     1. scPlaylistDownload.py
     2. get shareable playlist url from soundcloud ('copy link' on playlist page) -> paste url
     3. find the folder named after your playlist -> enjoy all the tracks inside!
-
 
 
 
