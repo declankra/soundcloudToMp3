@@ -36,9 +36,9 @@ async def download_playlist(url):
             await write_track_to_file(track, filename)
                 # print nothing if successfully downloads
         except UnsupportedFormatError:
-            print(f'Skipped: {trackname} (Unsupported format)')
+            print(f'Skipped: {trackname} Unsupported format')
         except Exception as e:
-            print(f'Error downloading {trackname}: (Unsupported HLS stream format)')
+            print(f'Error downloading {trackname}: Unsupported HLS stream format')
 
 # !! replace with your playlist URL
 playlist_url = 'https://soundcloud.com/declank10/sets/the-boats-darty/s-8hp3T6ZT0wH?si=ac83ad6bb1004b388f02bdb9f7e8e83c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
