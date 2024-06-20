@@ -1,4 +1,4 @@
-# Download *any Soundcloud Song!!
+# Download any* Soundcloud Song!!
 for the aspiring DJ, music lover, and the like
 
 **almost any: ~6% of songs have a a weird unsupported HLS stream format*
